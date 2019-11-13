@@ -1,0 +1,42 @@
+{
+  "generator-jhipster": {
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "enableHibernateCache": false,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "jhiPrefix": "jhi",
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "messageBroker": false,
+    "nativeLanguage": "en",
+    "packageName": "com.jhipster.demo.notification",
+    "packageFolder": "com/jhipster/demo/notification",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": false,
+    "serviceDiscoveryType": "eureka",
+    "skipClient": true,
+    "testFrameworks": [],
+    "websocket": false,
+    "baseName": "notification",
+    "applicationType": "microservice",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "buildTool": "gradle",
+    "serverPort": "8083",
+    "skipUserManagement": true,
+    "jhipsterVersion": "6.5.0",
+    "clientPackageManager": "npm",
+    "jwtSecretKey": "Yzc3ODM5NGEyY2UwOTI2NzM5MjQ4MzRhZDcyZTJkYTlmNGJjMDlmMTFiZGI3M2FlM2E3Mjg4YjYwMzc0ZGQzMGFhZWVmNTc3Y2U1NDA5MzY3ZjMzN2NkZDUxNmY2YjhjMmFmNTI2MTg5MDkxMmUwNTE5MjUyNzIxOTI5YWE4Mjk=",
+    "embeddableLaunchScript": false,
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "blueprints": []
+  },
+  "entities": [
+    "Notification"
+  ]
+}
